@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Collision Severity Prediction</title>
+</head>
+<body>
+    <h1>Road Collision Severity Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="Vehicle Type Banded">Vehicle Type Banded:</label>
+        <input type="text" id="Vehicle Type Banded" name="Vehicle Type Banded" required><br>
+
+        <label for="Vehicle Skidding And Overturning">Vehicle Skidding And Overturning:</label>
+        <input type="text" id="Vehicle Skidding And Overturning" name="Vehicle Skidding And Overturning" required><br>
+
+        <label for="Vehicle Restricted Lane">Vehicle Restricted Lane:</label>
+        <input type="text" id="Vehicle Restricted Lane" name="Vehicle Restricted Lane" required><br>
+
+        <label for="Location Of Vehicle At First Impact">Location Of Vehicle At First Impact:</label>
+        <input type="text" id="Location Of Vehicle At First Impact" name="Location Of Vehicle At First Impact" required><br>
+
+        <label for="Vehicle Hit Object In Carriageway">Vehicle Hit Object In Carriageway:</label>
+        <input type="text" id="Vehicle Hit Object In Carriageway" name="Vehicle Hit Object In Carriageway" required><br>
+
+        <label for="Vehicle Leaving Carriageway">Vehicle Leaving Carriageway:</label>
+        <input type="text" id="Vehicle Leaving Carriageway" name="Vehicle Leaving Carriageway" required><br>
+
+        <label for="Vehicle Hit Object Off Carriageway">Vehicle Hit Object Off Carriageway:</label>
+        <input type="text" id="Vehicle Hit Object Off Carriageway" name="Vehicle Hit Object Off Carriageway" required><br>
+
+        <label for="First Point Of Impact">First Point Of Impact:</label>
+        <input type="text" id="First Point Of Impact" name="First Point Of Impact" required><br>
+
+        <label for="Driver Gender">Driver Gender:</label>
+        <input type="text" id="Driver Gender" name="Driver Gender" required><br>
+
+        <label for="Casualty Count">Casualty Count:</label>
+        <input type="text" id="Casualty Count" name="Casualty Count" required><br>
+
+        <label for="Highway Authority">Highway Authority:</label>
+        <input type="text" id="Highway Authority" name="Highway Authority" required><br>
+
+        <label for="First Road Class">First Road Class:</label>
+        <input type="text" id="First Road Class" name="First Road Class" required><br>
+
+        <label for="First Road Number">First Road Number:</label>
+        <input type="text" id="First Road Number" name="First Road Number" required><br>
+
+        <label for="Road Type">Road Type:</label>
+        <input type="text" id="Road Type" name="Road Type" required><br>
+
+        <label for="Speed Limit">Speed Limit:</label>
+        <input type="text" id="Speed Limit" name="Speed Limit" required><br>
+
+        <label for="Junction Detail">Junction Detail:</label>
+        <input type="text" id="Junction Detail" name="Junction Detail" required><br>
+
+        <label for="Junction Control">Junction Control:</label>
+        <input type="text" id="Junction Control" name="Junction Control" required><br>
+
+        <label for="Second Road Number">Second Road Number:</label>
+        <input type="text" id="Second Road Number" name="Second Road Number" required><br>
+
+        <label for="Pedestrian Crossing Facilities">Pedestrian Crossing Facilities:</label>
+        <input type="text" id="Pedestrian Crossing Facilities" name="Pedestrian Crossing Facilities" required><br>
+
+        <label for="Light Conditions">Light Conditions:</label>
+        <input type="text" id="Light Conditions" name="Light Conditions" required><br>
+
+        <label for="Weather Details">Weather Details:</label>
+        <input type="text" id="Weather Details" name="Weather Details" required><br>
+
+        <label for="Road Surface Condition">Road Surface Condition:</label>
+        <input type="text" id="Road Surface Condition" name="Road Surface Condition" required><br>
+
+        <label for="Special Conditions At Site">Special Conditions At Site:</label>
+        <input type="text" id="Special Conditions At Site" name="Special Conditions At Site" required><br>
+
+        <label for="Carriageway Hazards">Carriageway Hazards:</label>
+        <input type="text" id="Carriageway Hazards" name="Carriageway Hazards" required><br>
+
+        <button type="submit">Predict Severity</button>
+    </form>
+</body>
+</html>
